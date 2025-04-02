@@ -17,7 +17,7 @@ body {
 
 .container {
   background-color: #FFF;
-  height: 260px;
+  height: 450px;
   width: 400px;
   border-radius: 10px;
   padding: 20px;
@@ -68,7 +68,7 @@ body {
   background-color: #086824;
   color: #FFF;
   font-size: 1.2rem;
-  margin-top: 20px;
+  margin-top: 15px;
   cursor: pointer;
   opacity: 0.9;
   transition: 0.4s;
@@ -88,7 +88,7 @@ body {
   display: flex;
   opacity: 0;
   border: 1px solid #ccc;
-  padding: 30px 0;
+  padding: 12px 0;
   margin: 20px 15px;
   display: flex;
   justify-content: center;
