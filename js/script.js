@@ -5,6 +5,11 @@ const qrCodeInput = document.querySelector("#qr-form input");
 
 const qrCodeImg = document.querySelector("#qr-code img");
 
+const resetBtn = document.querySelector("#reset");
+
+
+// Eventos / Funções
+
 // Eventos
 
 // Gerar QR Code
@@ -39,4 +44,13 @@ qrCodeInput.addEventListener("keyup", () => {
         container.classList.remove("active");
         qrCodeBtn.innerText = "Gerar Qr Code";
     }
+});
+
+// Função para Limpar input e Qr Code
+
+resetBtn.addEventListener("click", () => {
+    qrCodeInput.value = "";
+    container.classList.remove("active");
+    qrCodeImg.src = "";
+    qrCodeBtn.innerText = "Gerar Qr Code...";
 });
